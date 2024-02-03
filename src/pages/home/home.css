@@ -1,0 +1,27 @@
+.home-container {
+    width: 100%;
+}
+
+.home-container hr {
+    height: 3px;
+    border: 0;
+    width: 85%;
+    border-top: 1px solid #70aa70;
+    margin: auto;
+}
+
+.button-container {
+    justify-content: center;
+    margin: 1rem auto 1rem;
+    width: 100%;
+    gap: 4px;
+}
+
+.button-container div {
+    justify-content: center;
+    margin: 0 auto;
+    width: 75%;
+    gap: 4px;
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,33 @@
+.hero {
+    margin: 0 2rem 2rem;
+}
+.hero img {
+    width: 40%;
+    height: auto;
+    margin: 0%;
+}
+
+@media screen and (min-width: 620px) {
+    .hero img {
+        width: 32%;
+    }
+}
+
+.hero h1 {
+    font-size: 72px;
+    font-weight: 300;
+}
+
+.hero h2 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 400px) {
+    .hero h1 {
+        font-size: 48px;
+    }
+    .hero h2 {
+        font-size: 36px;
+    }
+}
