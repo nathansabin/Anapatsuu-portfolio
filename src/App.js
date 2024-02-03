@@ -1,13 +1,13 @@
 import './App.css';
-import Button from './components/button/button';
 import Home from './pages/home/home';
-
+import Footer from './components/footer/footer';
 
 function App() {
   return (
     <div className="App">
       <div className='container'>
         <Home />
+        <Footer /> 
       </div>
     </div>
   );
