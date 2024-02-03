@@ -8,7 +8,13 @@
     justify-content: center;
     margin: 0 auto;
     display: flex;
-    gap: 5rem;
+    gap: 4rem;
+}
+
+@media screen and (max-width: 450px){
+    .footer-wrapper div {
+        gap: 2px;
+    }
 }
 
 .icon{
@@ -20,7 +26,6 @@
     color: white;
     background-color: #d6ffd2;
 }
-
 
 .bi {
     color: #1a2b18;
