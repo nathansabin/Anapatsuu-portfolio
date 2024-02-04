@@ -6,9 +6,9 @@ function Header() {
     return (
         <div className='hero'>
             <img src={Logo} alt='logo' />
-            <h1>Anapatsuu</h1>
+            <h1>‧͙⁺˚･༓☾ Welcome! ☽༓･˚⁺‧͙</h1>
             <hr />
-            <h2>Portfolio</h2>
+            <h2>˖ ݁ 𖥔.⋆⁺₊⋆✧⋆⁺₊⋆.𖥔 ݁ ˖</h2>
         </div>
     );
 }
