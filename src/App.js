@@ -15,15 +15,35 @@ function App() {
               <Route 
               path='/'
               element={<Home />}/>
-            </Routes>
-            <Routes>
               <Route 
               path='/character-design'
               element={<Portfolio 
                 entries={characterDesign}
                 title={'Charcter Design'}
+                />}
+              />
+              <Route
+              path='/sketches'
+              element={<Portfolio
+                entries={characterDesign}
+                title={'Sketches'}
               />}
               />
+              <Route
+              path='/animation'
+              element={<Portfolio
+                entries={characterDesign}
+                title={'Animation'}
+              />}
+              />
+              <Route
+              path='/chibi'
+              element={<Portfolio
+                entries={characterDesign}
+                title={'Chibi'}
+              />}
+              />
+              
             </Routes>
           </main>
         </Router>

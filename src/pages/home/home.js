@@ -9,10 +9,10 @@ function Home() {
             <Header />
             <nav className='button-container'> 
                 <div>
-                    <a href="/character-design"><Button text='Character Design'/></a>
-                    <Button text='Sketches'/>
-                    <Button text='Animation'/>
-                    <Button text='Chibi'/>  
+                    <Button category={'character-design'} text='Character Design'/>
+                    <Button category={'sketches'} text='Sketches'/>
+                    <Button category={'animation'} text='Animation'/>
+                    <Button category={'chibi'} text='Chibi'/>  
                 </div>    
             </nav>
             <hr />
