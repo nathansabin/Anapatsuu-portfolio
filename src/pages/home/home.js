@@ -9,7 +9,7 @@ function Home() {
             <Header />
             <nav className='button-container'> 
                 <div>
-                    <Button text='Character Design'/>
+                    <a href="/character-design"><Button text='Character Design'/></a>
                     <Button text='Sketches'/>
                     <Button text='Animation'/>
                     <Button text='Chibi'/>  
