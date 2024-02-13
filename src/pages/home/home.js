@@ -18,8 +18,8 @@ function Home() {
             <hr />
             <nav className='button-container'>
                 <div>
-                    <Button text='About Me'/>
-                    <Button text='Contact'/>
+                    <Button category={'about'} text='About Me'/>
+                    <Button category={'contact'} text='Contact'/>
                 </div>
             </nav>
         </div>

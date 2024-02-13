@@ -5,6 +5,7 @@ import Footer from './components/footer/footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import characterDesign from './assets/porfolio/character-design/character-design';
 import Sketches from './assets/porfolio/Sketches/sketches.js';
+import About from './pages/about/about.js';
 
 function App() {
   return (
@@ -44,7 +45,10 @@ function App() {
                 title={'Chibi'}
               />}
               />
-              
+              <Route
+              path='/about'
+              element={<About />}
+              />
             </Routes>
           </main>
         </Router>
