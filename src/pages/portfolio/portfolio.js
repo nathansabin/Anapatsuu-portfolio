@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import Lightbox from 'react-18-image-lightbox';
-import Button from '../../components/button/button';
+import React, { useState} from 'react';
 import Pagenav from '../../components/pagenav/pagenav';
-import 'react-18-image-lightbox/style.css';
 import './portfolio.css';
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 
 function Portfolio(props) {
     const portfolioList = props.entries;
@@ -14,10 +13,12 @@ function Portfolio(props) {
 
     const activateLightbox = (e) => {
         const index = e.target.id;
-        setIsLightbox(prevState => ({
-            index: index,
-            on: !prevState.on, 
-        }));
+        setIsLightbox(prevState => ({ ...prevState, index: index }));
+        setIsLightbox(prevState => ({ ...prevState, on: true }));
+    }
+
+    const closeLightbox = () => {
+        setIsLightbox(prevState => ({ ...prevState, on: false }))
     }
 
     return (
@@ -30,12 +31,11 @@ function Portfolio(props) {
                     <img key={index} id={index} src={design.image} alt={`Image ${index}`} />
                 </li>
             ))}
-             { isLightbox.on && 
-            <Lightbox 
-                mainSrc={portfolioList[isLightbox.index].image}
-                onCloseRequest={() => setIsLightbox(prevState => ({ ...prevState, on: false }))}
+            <Lightbox
+                open={isLightbox.on}
+                close={closeLightbox}
+                slides={[{src:portfolioList[isLightbox.index].image}]}
             />
-        }
             </ul>
             <Pagenav />
         </div>
