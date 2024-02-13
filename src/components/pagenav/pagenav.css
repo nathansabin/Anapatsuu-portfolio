@@ -1,0 +1,35 @@
+.pagenav-container {
+    width: 100%;
+    margin-top: 3rem;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.pagenav-box {
+    width: 75%;
+    height: auto;
+    display: flex;
+    gap: 3rem;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.pagenav-box hr {
+    height: 3px;
+    border: 0;
+    width: 70%;
+    border-top: 1px solid #70aa70;
+    margin: auto;
+}
+
+.small-button {
+    width: 120px;
+    height: auto;
+    padding: 8px;
+    background-color: #baffd4;
+    color: #3f7754;
+    font-family: 'Poor Story', system-ui;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 15px;
+}

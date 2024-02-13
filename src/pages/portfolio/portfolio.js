@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Lightbox from 'react-18-image-lightbox';
 import Button from '../../components/button/button';
+import Pagenav from '../../components/pagenav/pagenav';
 import 'react-18-image-lightbox/style.css';
 import './portfolio.css';
 
@@ -36,11 +37,7 @@ function Portfolio(props) {
             />
         }
             </ul>
-            <div className='button-container'>
-                <Button text='Home' category=''/>
-                <Button text='About' category='about'/>
-                <Button text='Contact' category='contact' />
-            </div>
+            <Pagenav />
         </div>
     );
 }

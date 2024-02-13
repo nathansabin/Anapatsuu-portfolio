@@ -1,9 +1,11 @@
 import React from 'react';
 import './about.css';
+import Pagenav from '../../components/pagenav/pagenav';
 import betty from '../../assets/porfolio/character-design/Betty_Noire.png';
 
 function About() {
     return (
+        <div>
         <div className='about-container'>
             <div className='about-box'>
                 <div className='about-content'>
@@ -15,6 +17,8 @@ function About() {
                 </div>
             </div>
             <img className='about-img' src={betty} />
+        </div>
+        <Pagenav /> 
         </div>
     );
 }
