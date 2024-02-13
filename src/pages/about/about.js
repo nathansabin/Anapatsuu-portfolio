@@ -16,7 +16,7 @@ function About() {
                     </p>
                 </div>
             </div>
-            <img className='about-img' src={betty} />
+            <img className='about-img' alt='betty' src={betty} />
         </div>
         <Pagenav /> 
         </div>
