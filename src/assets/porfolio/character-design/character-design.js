@@ -1,4 +1,4 @@
-const characterDesign = [
+const CharacterDesign = [
     {
         image: require('./Betty_Noire.png')
     },
@@ -124,4 +124,4 @@ const characterDesign = [
     } 
 ]
 
-export default characterDesign;
+export default CharacterDesign;

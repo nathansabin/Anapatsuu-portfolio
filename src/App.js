@@ -3,8 +3,9 @@ import Home from './pages/home/home';
 import Portfolio from './pages/portfolio/portfolio';
 import Footer from './components/footer/footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import characterDesign from './assets/porfolio/character-design/character-design';
+import CharacterDesign from './assets/porfolio/character-design/character-design';
 import Sketches from './assets/porfolio/Sketches/sketches.js';
+import Chibi from './assets/porfolio/chibi/chibi.js';
 import About from './pages/about/about.js';
 import Contact from './pages/contact/contact.js';
 
@@ -21,7 +22,7 @@ function App() {
               <Route 
               path='/character-design'
               element={<Portfolio 
-                entries={characterDesign}
+                entries={CharacterDesign}
                 title={'Charcter Design'}
                 />}
               />
@@ -35,14 +36,14 @@ function App() {
               <Route
               path='/animation'
               element={<Portfolio
-                entries={characterDesign}
+                entries={CharacterDesign}
                 title={'Animation'}
               />}
               />
               <Route
               path='/chibi'
               element={<Portfolio
-                entries={characterDesign}
+                entries={Chibi}
                 title={'Chibi'}
               />}
               />
