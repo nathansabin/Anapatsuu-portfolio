@@ -27,6 +27,8 @@
 }
 
 .contact-info label {
+    margin-left: 1rem;
+    text-align: left;
     font-size: 18px;
 }
 .contact-info input{ 

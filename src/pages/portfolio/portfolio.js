@@ -23,7 +23,7 @@ function Portfolio(props) {
 
     return (
         <div className='portfolio-container'>
-            <h1 className='title'>{props.title}</h1>
+            <h1 className='title'>{`⊹˙⋆${props.title}⋆˙⊹`}</h1>
 
             <ul className='list-container'>
             {portfolioList.map((design, index) => (

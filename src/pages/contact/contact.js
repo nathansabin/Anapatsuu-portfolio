@@ -24,7 +24,7 @@ function Contact() {
         e.stopPropagation();
         e.preventDefault()
 
-        const mailtoLink = `mailto:${'sabinnat001@outlook.com'}?subject=${encodeURIComponent(`${info.name} says ${info.subject}`)}&body=${encodeURIComponent(info.info)}`;
+        const mailtoLink = `mailto:${'smolzayumz24@gmail.com'}?subject=${encodeURIComponent(`${info.name} says ${info.subject}`)}&body=${encodeURIComponent(info.info)}`;
         window.location.href = mailtoLink;
     }
 
