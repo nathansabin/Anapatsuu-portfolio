@@ -7,15 +7,15 @@
 
 .about-hero {
     font-family: 'Nunito Sans', sans-serif;
-    font-weight: 800;
-    color: #023020;
+    font-weight: 600;
+    color:#70aa70;
 }
 
 .about-box {
     margin: 0 auto;
     width: 60%;
     height: auto;
-    border: 2px double black;
+    box-shadow: 1px 1px 5px #70aa70 inset;
     background-color: #baffd4;
     display: flex;
 }
@@ -44,7 +44,28 @@
 }
 
 .about-content p {
-    padding: 10px;
+    padding: 50px;
     font-family: 'Poor Story', system-ui;
     color: darkgreen;
+}
+
+.about-content em {
+    font-family: 'Poor Story', system-ui;
+    color: darkgreen;
+    padding-bottom: 1rem;
+    justify-content: left;
+    font-weight: 10;
+}  
+
+@media screen and (min-width: 1180px) {
+    .about-hero{
+        font-size: 64px;
+    }
+    .about-content p{
+        padding: 70px;
+        font-size: 24px;
+    }
+    .about-content em {
+        font-size: 24px;
+    }
 }
