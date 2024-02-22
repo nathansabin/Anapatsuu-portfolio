@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <HashRouter>
   // on active server uncomment top
-  <HashRouter>
+  <HashRouter basename='/Anapatsuu-portfolio'>
     <App />
   </HashRouter>
 );
