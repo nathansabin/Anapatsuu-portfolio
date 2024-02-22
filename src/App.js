@@ -2,7 +2,7 @@ import './App.css';
 import Home from './pages/home/home';
 import Portfolio from './pages/portfolio/portfolio';
 import Footer from './components/footer/footer';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import CharacterDesign from './assets/porfolio/character-design/character-design';
 import Sketches from './assets/porfolio/Sketches/sketches.js';
 import Animation from './assets/porfolio/animations/animations.js';
@@ -14,7 +14,6 @@ function App() {
   return (
     <div className="App">
       <div className='container'>
-        <Router>
           <main>
             <Routes>
               <Route 
@@ -58,7 +57,6 @@ function App() {
               />
             </Routes>
           </main>
-        </Router>
         <Footer /> 
       </div>
     </div>
