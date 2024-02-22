@@ -5,6 +5,7 @@ import Footer from './components/footer/footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import CharacterDesign from './assets/porfolio/character-design/character-design';
 import Sketches from './assets/porfolio/Sketches/sketches.js';
+import Animation from './assets/porfolio/animations/animations.js';
 import Chibi from './assets/porfolio/chibi/chibi.js';
 import About from './pages/about/about.js';
 import Contact from './pages/contact/contact.js';
@@ -36,7 +37,7 @@ function App() {
               <Route
               path='/animation'
               element={<Portfolio
-                entries={CharacterDesign}
+                entries={Animation}
                 title={'Animation'}
               />}
               />
