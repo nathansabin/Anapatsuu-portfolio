@@ -17,6 +17,7 @@
     "web-vitals": "^2.1.4",
     "yet-another-react-lightbox": "^3.17.0"
   },
+  "homepage": "https://nathansabin.github.io/Anapatsuu-portfolio",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
