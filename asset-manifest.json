@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Anapatsuu-portfolio/static/css/main.9e54e5b9.css",
-    "main.js": "/Anapatsuu-portfolio/static/js/main.fd211331.js",
+    "main.css": "/Anapatsuu-portfolio/static/css/main.ea424054.css",
+    "main.js": "/Anapatsuu-portfolio/static/js/main.70bcbc96.js",
     "static/media/b37f596a-6c4a-45d1-a619-eda4a3d0cf0c.gif": "/Anapatsuu-portfolio/static/media/b37f596a-6c4a-45d1-a619-eda4a3d0cf0c.8f254d5649b124160bbf.gif",
     "static/media/IMG_1502.png": "/Anapatsuu-portfolio/static/media/IMG_1502.5cb139e57539c294b6a8.png",
     "static/media/IMG_1515.png": "/Anapatsuu-portfolio/static/media/IMG_1515.b6b159402566ac52492e.png",
@@ -70,11 +70,11 @@
     "static/media/bootstrap-icons.woff?": "/Anapatsuu-portfolio/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/bootstrap-icons.woff2?": "/Anapatsuu-portfolio/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "index.html": "/Anapatsuu-portfolio/index.html",
-    "main.9e54e5b9.css.map": "/Anapatsuu-portfolio/static/css/main.9e54e5b9.css.map",
-    "main.fd211331.js.map": "/Anapatsuu-portfolio/static/js/main.fd211331.js.map"
+    "main.ea424054.css.map": "/Anapatsuu-portfolio/static/css/main.ea424054.css.map",
+    "main.70bcbc96.js.map": "/Anapatsuu-portfolio/static/js/main.70bcbc96.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e54e5b9.css",
-    "static/js/main.fd211331.js"
+    "static/css/main.ea424054.css",
+    "static/js/main.70bcbc96.js"
   ]
 }
