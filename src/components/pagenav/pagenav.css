@@ -9,7 +9,7 @@
     width: 75%;
     height: auto;
     display: flex;
-    gap: 3rem;
+    gap: 3px;
     margin: 0 auto;
     justify-content: center;
 }

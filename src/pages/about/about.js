@@ -20,7 +20,9 @@ function About() {
                     <em>~Ana</em>
                 </div>
             </div>
-            <img className='about-img' alt='betty' src={betty} />
+            <div className='img-container'>
+                <img className='about-img' alt='betty' src={betty} />
+            </div>
         </div>
         <Pagenav /> 
         </div>
