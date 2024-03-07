@@ -1,5 +1,11 @@
 const Sketches = [
     {
+        image: require("./leon.png")
+    },
+    {
+        image: require('./IMG_1521.png')
+    },
+    {
         image: require('./IMG_4416.jpg')
     },
     {
@@ -28,9 +34,6 @@ const Sketches = [
     },
     {
         image: require('./IMG_1524.png')
-    },
-    {
-        image: require('./IMG_1521.png')
     },
     {
         image: require('./IMG_0864.png')
