@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
 import Pagenav from '../../components/pagenav/pagenav';
-import betty from '../../assets/porfolio/character-design/Betty_Noire.png';
+import betty from '../../assets/author.png';
 
 function About() {
     return (

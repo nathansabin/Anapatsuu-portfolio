@@ -10,6 +10,9 @@ const Animation = [
     },
     {
         image: require('./Ana_Todd_HW_Walk_Cycle_1.gif')
+    }, 
+    {
+        image: require('./Dream_7.gif')
     }
 ]
 
