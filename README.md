@@ -2,8 +2,6 @@
 
 ## Development
 
-### Before you run
-comment out the base name in index.js
 
 ## Push
 

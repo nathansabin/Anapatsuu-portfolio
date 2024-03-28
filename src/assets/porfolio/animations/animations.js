@@ -7,6 +7,9 @@ const Animation = [
     },
     {
         image: require('./undertale_Teehee_Papyrus_did_a_goofy_lol.gif')
+    },
+    {
+        image: require('./Ana_Todd_HW_Walk_Cycle_1.gif')
     }
 ]
 
