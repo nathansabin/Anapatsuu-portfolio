@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Anapatsuu-portfolio/static/css/main.ea424054.css",
-    "main.js": "/Anapatsuu-portfolio/static/js/main.4cd0d261.js",
+    "main.js": "/Anapatsuu-portfolio/static/js/main.cbbbbfab.js",
     "static/media/b37f596a-6c4a-45d1-a619-eda4a3d0cf0c.gif": "/Anapatsuu-portfolio/static/media/b37f596a-6c4a-45d1-a619-eda4a3d0cf0c.8f254d5649b124160bbf.gif",
     "static/media/Dream_7.gif": "/Anapatsuu-portfolio/static/media/Dream_7.d586353b53d0b8bb71ec.gif",
     "static/media/IMG_1502.png": "/Anapatsuu-portfolio/static/media/IMG_1502.5cb139e57539c294b6a8.png",
@@ -35,6 +35,7 @@
     "static/media/leon.png": "/Anapatsuu-portfolio/static/media/leon.1f0f60b1eb688d1d193b.png",
     "static/media/IMG_1499.png": "/Anapatsuu-portfolio/static/media/IMG_1499.389c0a679177e8025b4a.png",
     "static/media/IMG_1521.png": "/Anapatsuu-portfolio/static/media/IMG_1521.639ffc0498ed856c428e.png",
+    "static/media/cute_animation.gif": "/Anapatsuu-portfolio/static/media/cute_animation.9e22d5288c0d80a95b9d.gif",
     "static/media/IMG_1488.png": "/Anapatsuu-portfolio/static/media/IMG_1488.e35a9b535015f0703f87.png",
     "static/media/IMG_1531.png": "/Anapatsuu-portfolio/static/media/IMG_1531.b39ca3586d5f62208197.png",
     "static/media/IMG_1495.png": "/Anapatsuu-portfolio/static/media/IMG_1495.dfca17c837b1c09e11d0.png",
@@ -75,10 +76,10 @@
     "static/media/bootstrap-icons.woff2?": "/Anapatsuu-portfolio/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "index.html": "/Anapatsuu-portfolio/index.html",
     "main.ea424054.css.map": "/Anapatsuu-portfolio/static/css/main.ea424054.css.map",
-    "main.4cd0d261.js.map": "/Anapatsuu-portfolio/static/js/main.4cd0d261.js.map"
+    "main.cbbbbfab.js.map": "/Anapatsuu-portfolio/static/js/main.cbbbbfab.js.map"
   },
   "entrypoints": [
     "static/css/main.ea424054.css",
-    "static/js/main.4cd0d261.js"
+    "static/js/main.cbbbbfab.js"
   ]
 }
