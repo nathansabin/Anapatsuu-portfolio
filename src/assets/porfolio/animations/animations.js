@@ -13,6 +13,9 @@ const Animation = [
     }, 
     {
         image: require('./Dream_7.gif')
+    },
+    {
+        image: require('./cute_animation.gif')
     }
 ]
 
