@@ -23,12 +23,13 @@ function Portfolio(props) {
 
     return (
         <div className='portfolio-container'>
-            <h1 className='title'>{`⊹˙⋆${props.title}⋆˙⊹`}</h1>
-
+            <div className='title-con'>
+                <h1 className='title'>{`⊹˙⋆${props.title}⋆˙⊹`}</h1>
+            </div>
             <ul className='list-container'>
             {portfolioList.map((design, index) => (
                 <li key={index} id={index} className='image' onClick={activateLightbox}> 
-                    <img key={index} id={index} src={design.image} alt={`Image ${index}`} />
+                    <img loading='lazy' key={index} id={index} src={design.image} alt={`Image ${index}`} />
                 </li>
             ))}
             <Lightbox

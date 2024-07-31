@@ -1,6 +1,30 @@
 const CharacterDesign = [
     {
-        image: require('./Betty_Noire.png')
+        image: require('./Space_Girl_LR.png')
+    },
+    {
+        image: require('./Sad_Tori_LR.png')
+    },
+    {
+        image: require('./Red_Head_Lol.png')
+    },
+    {
+        image: require('./anapatsuu-asset_1.jpg')
+    },
+    {
+        image: require('./anapatsuu-asset_2.jpg')
+    },
+    {
+        image: require('./anapatsuu-asset.jpg')
+    },
+    {
+        image: require('./IMG_1503.png')
+    },
+    {
+        image: require('./IMG_1505.png')
+    },
+    {
+        image: require('./IMG_1502.png')
     },
     {
         image: require('./IMG_1206.png')
@@ -13,21 +37,6 @@ const CharacterDesign = [
     },
     {
         image: require('./IMG_1469.png')
-    },
-    {
-        image: require('./IMG_1486.png')
-    },
-    {
-        image: require('./IMG_1488.png')
-    },
-    {
-        image: require('./IMG_1489.png')
-    },
-    {
-        image: require('./IMG_1490.png')
-    },
-    {
-        image: require('./IMG_1491.png')
     },
     {
         image: require('./IMG_1492.png')
@@ -57,15 +66,6 @@ const CharacterDesign = [
         image: require('./IMG_1501.png') 
     },
     {
-        image: require('./IMG_1502.png')
-    },
-    {
-        image: require('./IMG_1503.png')
-    },
-    {
-        image: require('./IMG_1505.png')
-    },
-    {
         image: require('./IMG_1509.png')
     },
     {
@@ -74,15 +74,6 @@ const CharacterDesign = [
     {
         image: require('./IMG_1511.png')
     },
-    {
-        image: require('./IMG_1512.png')
-    },
-    {
-        image: require('./IMG_1513.png')
-    },
-    {
-        image: require('./IMG_1514.png')
-    }, 
     {
         image: require('./IMG_1515.png')
     },
@@ -96,13 +87,7 @@ const CharacterDesign = [
         image: require('./IMG_1519.png')
     },
     {
-        image: require('./IMG_4434.png')
-    },
-    {
         image: require('./IMG_4436.png')
-    },
-    {
-        image: require('./IMG_4437.png')
     },
     {
         image: require('./IMG_4438.png')
@@ -113,15 +98,6 @@ const CharacterDesign = [
     {
         image: require('./IMG_4440.png')
     },
-    {
-        image: require('./IMG_4441.png')
-    },
-    {
-        image: require('./Seraphine.jpg')
-    },
-    {
-        image: require('./TD20Akali.jpg')
-    } 
 ]
 
 export default CharacterDesign;
