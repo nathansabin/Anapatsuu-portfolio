@@ -1,5 +1,8 @@
 const CharacterDesign = [
     {
+        image: require('./Draculaura_Nrom.png')
+    },
+    {
         image: require('./Space_Girl_LR.png')
     },
     {

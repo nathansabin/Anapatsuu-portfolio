@@ -21,6 +21,15 @@ function Portfolio(props) {
         setIsLightbox(prevState => ({ ...prevState, on: false }))
     }
 
+    const lightboxList = () => {
+        let formated = [];
+
+        for (let i=0; i<portfolioList.length; i++) {
+            formated.push({"src" : portfolioList[i].image});
+        }
+        return formated;
+    }
+
     return (
         <div className='portfolio-container'>
             <div className='title-con'>
@@ -35,7 +44,7 @@ function Portfolio(props) {
             <Lightbox
                 open={isLightbox.on}
                 close={closeLightbox}
-                slides={[{src:portfolioList[isLightbox.index].image}]}
+                slides={lightboxList()}
             />
             </ul>
             <Pagenav />
